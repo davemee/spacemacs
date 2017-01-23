@@ -1,0 +1,45 @@
+(deftheme blue-mood
+  "Created 2015-05-19.")
+
+(custom-theme-set-variables
+ 'blue-mood
+ '(aquamacs-additional-fontsets nil)
+ '(aquamacs-customization-version-id 215)
+ '(aquamacs-tool-bar-user-customization (quote ((16777249 new-file open-file recent-files save-buffer aquamacs-print nil undo redo cut copy paste isearch-forward nil customize help) (37748974 Set\ for\ current\ session Save\ for\ future\ sessions Undo\ edits Reset\ to\ saved Erase\ customizations Help\ for\ Customize Exit))))
+ '(default-frame-alist (quote ((internal-border-width . 0) (cursor-type . box) (color-theme-name . color-theme-blue-mood) (top-toolbar-shadow-color . "#e5e5e0e0e1e1") (bottom-toolbar-shadow-color . "#6c6c68686868") (background-toolbar-color . "#bfbfbfbfbfbf") (viper-saved-cursor-color-in-replace-mode . "Red3") (senator-eldoc-use-color . t) (vc-annotate-very-old-color . "#0046FF") (fringe) (modeline . t) (border-color . "#000000000000") (mouse-color . "black") (background-mode . dark) (tool-bar-lines . 0) (menu-bar-lines . 1) (right-fringe . 11) (left-fringe . 10) (cursor-color . "DarkGoldenrod1") (background-color . "DodgerBlue4") (foreground-color . "white smoke") (font . "-apple-Panic_Sans-medium-normal-normal-*-11-*-*-*-m-0-iso10646-1") (fontsize . 0) (font-backend ns))))
+ '(helm-mode t)
+ '(ido-mode (quote both))
+ '(make-backup-files t)
+ '(ns-antialias-text t)
+ '(ns-tool-bar-display-mode (quote both))
+ '(ns-tool-bar-size-mode (quote small))
+ '(ns-use-qd-smoothing t)
+ '(scroll-bar-mode nil)
+ '(visual-line-mode nil)
+ '(tabbar-mode t)
+ '(one-buffer-one-frame-mode nil)
+ '(custom-safe-themes (quote ("32b371719925840f958e72dacf41c78caddeffb07c7ed09ade3ba06f3a12b3e4" "fc500e4739783da50bf5d594a697df3ac7c58b21b07de2d2c2ebc7add6c54203" default))))
+
+(custom-theme-set-faces
+ 'blue-mood
+ '(messages-buffer-mode-default ((t (:inherit special-mode-default))))
+ '(default ((t (:inherit nil :stipple nil :background "DodgerBlue4" :foreground "white smoke" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "apple" :family "Panic Sans"))))
+ '(comint-mode-default ((t (:inherit autoface-default :background "#105ea8" :height 130 :family "Inconsolata"))))
+ '(completion-list-mode-default ((t (:inherit autoface-default :background "#b3b3b3" :foreground "#000000" :height 110 :family "Inconsolata"))))
+ '(dired-mode-default ((t (:inherit autoface-default :foreground "#d9dcbc" :height 120 :family "Menlo"))))
+ '(eshell-mode-default ((t (:inherit autoface-default :background "#1b2635" :foreground "#ffffff" :height 110 :family "Menlo"))))
+ '(fixed-pitch ((t (:family "Akkurat_Mono"))))
+ '(help-mode-default ((t (:inherit autoface-default :background "#a2c4e6" :foreground "#09191e" :height 120 :family "Panic Sans"))))
+ '(package-menu-mode-default ((t (:inherit special-mode-default :height 110 :family "Menlo"))))
+ '(php-mode-default ((t (:inherit c-mode-default :height 120 :family "Akkurat Mono"))))
+ '(python-mode-default ((t (:inherit autoface-default :background "#0b3a68" :height 130 :family "Inconsolata"))))
+ '(variable-pitch ((t (:family "Akkurat_Light_Pro"))))
+ '(text-mode-default ((t (:inherit autoface-default :stipple nil :strike-through nil :underline nil :slant normal :weight normal :height 130 :width normal :family "Lucida Grande"))))
+ '(special-mode-default ((t (:inherit autoface-default))))
+ '(custom-theme-choose-mode-default ((t (:inherit special-mode-default))))
+ '(prog-mode-default ((t (:inherit autoface-default))))
+ '(fundamental-mode-default ((t (:inherit autoface-default))))
+ '(emacs-lisp-mode-default ((t (:inherit prog-mode-default))))
+ '(custom-new-theme-mode-default ((t (:inherit autoface-default)))))
+
+(provide-theme 'blue-mood)
